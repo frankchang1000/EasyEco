@@ -22,7 +22,7 @@ According to the Environmental Protection Agency, almost 300 million tons of was
 ## What it does ❓
 
 <p align="center">
-  <img src="https://github.com/frankchang1000/PlasticPal/blob/main/docs/slides/backend.png", width="500"/>
+  <img src="https://github.com/frankchang1000/PlasticPal/blob/main/docs/slides/howitworks.png", width="500"/>
 </p>
 
 EasyEco uses computer vision to determine if an item is recyclable. Then, our end-user can use the information provided to properly dispose of the item, which helps the environment and builds proper recycling habits. 
