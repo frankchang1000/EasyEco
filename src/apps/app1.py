@@ -41,7 +41,7 @@ def run_algorithm(button: bytes):
 
     # crop image to 128 x 128
     #button = button[0:128, 0:128]
-    st.image(button, use_column_width=True)
+    #st.image(button, use_column_width=True)
     outputs = MODEL(tf.expand_dims(button, axis=0), training=False)
     outputs = tf.squeeze(outputs, axis=0)
     index_val = tf.math.argmax(outputs, axis=0)
