@@ -22,7 +22,7 @@ According to the Environmental Protection Agency, almost 300 million tons of was
 ## What it does ❓
 
 <p align="center">
-  <img src="https://github.com/frankchang1000/PlasticPal/blob/main/docs/slides/howitworks.png", width="500"/>
+  <img src="https://github.com/frankchang1000/EasyEco/blob/main/docs/slides/howitworks.png", width="500"/>
 </p>
 
 EasyEco uses computer vision to determine if an item is recyclable. Then, our end-user can use the information provided to properly dispose of the item, which helps the environment and builds proper recycling habits. 
@@ -51,7 +51,7 @@ We utilized Tensorflow 2.9 which requires the latest version of the drivers for 
 ## How we built it ⚙️🔧
 
 <p align="center">
-  <img src="https://github.com/frankchang1000/PlasticPal/blob/main/docs/slides/howitworks.png", width="500"/>
+  <img src="https://github.com/frankchang1000/EasyEco/blob/main/docs/slides/howitworks.png", width="500"/>
 </p>
 
 Our backend is powered using Tensorflow 2.9 (the most recent version) as well as EfficientNetv2, which we modified to have a slightly larger width to increase feature and pattern recognition. We created a custom dataset containing over 10,000 images through the use of webscraping techniques with the Google Images api. To further improve inference, 8 different augmentation methods were applied to train on more realistic, real-world images. The results were a resounding 95% training accuracy on our private test set. EasyEco uses the most advanced technology available to solve the world’s leading problems.
