@@ -64,7 +64,7 @@ Taiwan boasts one of the highest recycling rates in the world, so we decided to 
 
 We also wanted our front end to switch pages when the user took a picture, but Streamlit was unable to support this feature. We resorted to a dropdown menu which was more widely documented by the Streamlit users.
 
-The largest problem that we faced was training inference vs. testing inference accuracy. In the initial stages of testing, our model always worked well with any of the training images but webcam inference tests never worked correctly. After weeks of debugging, we realized that the webcam captured images with a 1920x1080, and our model made predictions with an image size of 128x128. 
+The largest problem that we faced was training inference vs. testing inference accuracy. In the initial stages of testing, our model always worked well with any of the training images but webcam inference tests never worked correctly. After weeks of debugging, we realized that the webcam captured images with a 1920x1080, and our model made predictions with an image size of 128x128. In order to fix this, we added more augmentations that would randomly shear the training images to replicate the compressing with the actual webcam.
 
 ## License
 
