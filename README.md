@@ -25,9 +25,9 @@ According to the Environmental Protection Agency, almost 300 million tons of was
   <img src="https://github.com/frankchang1000/EasyEco/blob/main/docs/slides/howitworks.png", width="500"/>
 </p>
 
-EasyEco uses computer vision to determine if an item is recyclable. Then, our end-user can use the information provided to properly dispose of the item, which helps the environment and builds proper recycling habits. 
+EasyEco uses computer vision to determine if an item is recyclable. With the result, our end-user can use the information provided to properly dispose of the item, which helps the environment and builds proper recycling habits. 
 
-EasyEco takes an image from a camera input, and feeds the image to our EfficientNetv2 model. The neural network classifies the image into one of 101 different categories, and is able to determine if the waste is fully recyclable, is only partly recyclable, or if it should not be recycled at all. Visual infographics are also displayed in order to easily inform the user of the reasoning behind the decision.
+EasyEco takes an image from a camera input, and feeds the image to our EfficientNetv2 model. The neural network classifies the image into one of 101 different categories, and is able to determine if the waste is fully recyclable, is only partially recyclable, or if it should not be recycled at all. Visual infographics are also displayed in order to easily inform the user of the reasoning behind the decision.
 
 ## Installation and Usage ⌨️🖱️
 
